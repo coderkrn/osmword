@@ -1,0 +1,219 @@
+/* Animation */
+
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 2500% 2500%;
+      animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    display: flex;
+    color: black;
+    height: 10vh;
+}
+.heading{
+    font-family: 'Ubuntu';
+    padding: 5px 0;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    
+}
+
+.contant{
+    padding: 30px 80px;
+display: flex;
+justify-content: space-between;
+}
+.status{
+    display: flex;
+    width: 47%;
+    height: 30vh;
+    /* margin: auto; */
+    border-radius: 50px;
+    box-shadow: 1px 2px 10px ;
+    background: none;
+    border: 1px solid black;
+}
+.status:hover{
+    background-color: rgb(233, 233, 240);
+}
+.text{
+    display: flex;
+align-items: center;
+margin: auto;
+font-size: 25px;
+max-width: 90%;
+}
+
+.foot{
+    color: grey;
+    align-items: center;
+    justify-content: center;
+display: flex;
+margin: auto;
+height: 10vh;
+text-align: center;
+}
+
+
+.p2{
+    padding: 7px 0;
+    font-size: 18px;
+}
+
+.container{
+    width: 100%;
+    height: 10vh; 
+}
+
+.crack{
+    max-width: 90%;
+    margin-left: 75px;
+   
+}
+
+.no{
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.num a:hover{
+background-color: grey;
+color: white;
+
+}
+.num{
+    display: flex;
+    padding: 0 10px;
+
+}
+.num a{
+    text-decoration: none;
+    border: 1px solid black;
+padding: 0 10px;
+color: black;
+transition: all 0.2s ease;
+}
+
+
+
+.home{
+    width: 50px;
+    height: 55px;
+    background: red;
+    color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 55px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+.home:hover{
+    background: none;
+}
+
+
+/* Responsiveness >>>>>>>>>> */
+
+
+
+@media(max-width:800px){
+ 
+
+    .status{
+    width: 80%;
+      height: 15vh;
+      border-radius: 20px;
+     margin: 40px 0px;
+      margin-left: 70px;
+    }
+    .text{
+      font-size: 15px;
+    }
+    .contant{
+        padding: 0px 10px;
+    display: block
+    
+    }
+
+   .p2{
+    font-size: 14px;
+   }
+   .home{
+    width: 45px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+}
+@media(max-width: 600px){
+    .p2{
+        font-size: 13px;
+       }
+
+       .status{
+        margin-left: 50px;
+}
+
+.home{
+    width: 40px;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+}
+@media(max-width: 450px){
+
+    .p2{
+        font-size: 13px;
+       }
+
+
+    .status{
+        margin-left: 40px;
+       }
+}
