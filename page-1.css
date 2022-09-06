@@ -30,21 +30,8 @@ html, body {
     padding:0;
 }
 
-.navbar{
-    display: flex;
-    color: black;
-    height: 10vh;
-}
-.heading{
-    font-family: 'Ubuntu';
-    padding: 5px 0;
-    align-items: center;
-    display: flex;
-    font-size: 40px;
-    margin: auto;
-    border-bottom: 1px solid black;
-    
-}
+
+
 
 .contant{
     padding: 30px 80px;
