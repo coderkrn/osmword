@@ -26,3 +26,11 @@ let home = document.querySelector('.home');
 home.addEventListener('click', ()=>{
   location.href = 'index.html';
 });
+
+
+var typed = new Typed('.typing-2', {
+  strings: ["KARAN PAL"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
