@@ -9,7 +9,6 @@
 /* >>>>>>>>>> Navbar  Styling >>>>>>>>> */
 
 .navbar{
-    padding: 6px 0;
     display: flex;
     position: fixed;
     width: 100%;
